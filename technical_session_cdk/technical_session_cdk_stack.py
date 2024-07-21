@@ -1,6 +1,8 @@
 from aws_cdk import (
     # Duration,
     Stack,
+    aws_dynamodb as dynamodb,
+    RemovalPolicy
     # aws_sqs as sqs,
 )
 from constructs import Construct
